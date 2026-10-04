@@ -1,7 +1,7 @@
-function fn1() {
-    console.log('module b: fn1')
+function fn1(...args) {
+    console.log('module b: fn1', args)
 }
 
 function fn2() {
-    console.log('module b: fn2')
+    console.log('module b: fn2', args)
 }
