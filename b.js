@@ -6,6 +6,6 @@ function fn2(...args) {
     console.log('module b: fn2', args)
 }
 
-function fn3() {
-    console.log('module b: fn3')
+function fn3(...args) {
+    console.log('module b: fn3', args)
 }
