@@ -9,3 +9,7 @@ function fn2(...args) {
 function fn3(...args) {
     console.log('module b: fn3', args)
 }
+
+function fn4() {
+    console.log('module b: fn3')
+}
